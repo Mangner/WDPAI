@@ -1,1 +1,63 @@
-h1 { color : red; }
+body {
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+.modern-form {
+  background-color: #2f2f47;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  width: 320px;
+}
+
+.modern-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #ffb84d;
+}
+
+.modern-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #ddd;
+}
+
+.modern-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3b3b5c;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.modern-form input:focus {
+  outline: 2px solid #ffb84d;
+  background-color: #46466a;
+}
+
+.modern-form button {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: #ffb84d;
+  color: #1e1e2f;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.modern-form button:hover {
+  background-color: #ffcf73;
+}
