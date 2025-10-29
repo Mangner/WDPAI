@@ -8,6 +8,28 @@
     <title>DASHBOARD</title>
 </head>
 <body>
-    <h1>DASHBOARD</h1>
+    <nav>
+        <p>LOGO</p>
+        <ul>
+            <li>DAHSBOARD</li>
+            <li>USERS</li>
+            <li>REPORTS</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside>
+            <p>MOJ TOOLBAR</p>
+        </aside>
+
+        <main>
+            <h1>DASHBOARD</h1>
+            <?php foreach($array as $key=>$value): ?>
+            <tr>
+                <?php> echo $key; ?></td>
+            </tr>
+            <?php endforeach; ?>
+            <!-- Tu wyswietlamy elementy -->>
+        </main>
+    </div>
 </body>
 </html>

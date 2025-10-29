@@ -10,6 +10,7 @@ class AppController {
         $output = "";
                  
         if(file_exists($templatePath)){
+            
             extract($variables);
             
             ob_start();
